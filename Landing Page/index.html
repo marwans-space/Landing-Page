@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo-container">
+        <img src="logo.png"alt="Logo" id="header-img"/>
+        <h1>NAMEDLY</h1>
+</div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link link1" href="#features">Features</a></li>
+                <li><a class="nav-link link2" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link link3" href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-container">
+                <h2>A bold headline that delivers</h2>
+                <p>Go ahead and say just a little more about what you do</p>
+            </div>
+                 <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
+                     <input type="email" id="email" placeholder="Enter your email address" />
+                        <p id="email-error" style="color: red; display: none;">Please enter a valid email address.</p>
+                        <button type="submit" id="hero-btn">Get Started</button>
+                 </form>
+        </section>
+        <section id="features">
+            <h2>Why Us?</h2>
+            <ul class="why-us">
+                <li>
+                    <h3>Premium Materials</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </li>
+                <li>
+                    <h3>Fast Shipping</h3>
+                    <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </li>
+                <li>
+                    <h3>Quality Assurance</h3>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="video-section">
+            <h2>About our Product!</h2>
+            <iframe id="video" src="https://www.youtube.com/watch?v=l04dDYW-QaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <video src="https://www.youtube.com/watch?v=l04dDYW-QaI" controls></video>
+            </iframe>
+        </section>
+        <section id="pricing">
+            <h2>Our plans</h2>
+            <div class="pricing-container">
+                <div class="pricing-option1">
+                    <header>
+                        <p class="plan-name1">Plan 1</p>
+                        <p class="plan-subname1">For individuals</p>
+                    </header>
+                    <div class="price">
+                        <p class="plan-price1">$2</p><p class="plan-duration1">/month</p>
+                    </div>
+                    <div class="plan-features1">
+                        <ul>
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                        </ul></div>
+                    <button class="select-plan1">Sign Up</button>
+                </div>
+                <div class="pricing-option2">
+                    <header>
+                        <p class="plan-name2">Plan 2</p>
+                        <p class="plan-subname2">For medium teams</p>
+                    </header>
+                    <div class="price">
+                        <p class="plan-price2">$5</p><p class="plan-duration2">/month</p>
+                    </div>
+                    <div class="plan-features2">
+                        <ul>
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                        </ul></div>
+                    <button class="select-plan2">Sign Up</button>
+                </div>
+                <div class="pricing-option3">
+                    <header>
+                        <p class="plan-name3">Plan 3</p>
+                        <p class="plan-subname3">For large teams</p>
+                    </header>
+                    <div class="price">
+                        <p class="plan-price3">$10</p><p class="plan-duration3">/month</p>
+                    </div>
+                    <div class="plan-features3">
+                        <ul>
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                        </ul></div>
+                    <button class="select-plan3">Sign Up</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>&copy; 2025 NAMEDLY. All rights reserved.</p>
+        </footer>
+</body>
+</html>
